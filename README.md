@@ -4,7 +4,7 @@ yes | pkg update && pkg upgrade
 yes | pkg install libjansson wget nano
 
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/butteercookies/ccminer/ccminer
+wget https://raw.githubusercontent.com/butteercookies/ccminer/main/ccminer
 wget https://raw.githubusercontent.com/butteercookies/ccminer/config.json
 wget https://raw.githubusercontent.com/butteercookies/ccminer/start.sh
 chmod +x ccminer start.sh
